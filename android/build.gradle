@@ -23,6 +23,7 @@ apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion 28
+    namespace 'com.instabug.flutter'
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
